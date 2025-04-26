@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exchange App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor Valutar</h1>
+
+    <input type="number" id="amountInput" placeholder="Introduceți suma în EUR">
+
+    <select id="currencySelect">
+      <option value="USD">USD - Dolar American</option>
+      <option value="RON">RON - Leu Românesc</option>
+      <option value="GBP">GBP - Liră Sterlină</option>
+      <option value="JPY">JPY - Yen Japonez</option>
+      <option value="CAD">CAD - Dolar Canadian</option>
+    </select>
+
+    <button onclick="Exchange()">Converteste</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
